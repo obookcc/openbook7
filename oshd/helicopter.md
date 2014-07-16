@@ -21,7 +21,10 @@
 
 这是一个遥控四旋翼直升机（四轴飞行器，四旋翼，四螺旋桨等）项目。 它是带4个螺旋桨的遥控直升机
 
-##视频
+
+<iframe height=498 width=510 src="http://player.youku.com/embed/XNzM3MDk5NTQw" frameborder=0 allowfullscreen></iframe>
+
+视频
 
 你需要的基本技能：
 
@@ -433,26 +436,26 @@ PortC引脚PC7->PC2连接到6x3的接头，在这里焊接公头。这些接口�
 | -- | -- | -- | -- | -- |
 | ATmega644PA | 40 pin plastic DIP | IC1 | 1 | Digikey: ATMEGA644PA-PU-ND |
 |     | 40 pin DIP socket | IC1 | 1 |  Digikey: A411-ND |
-|4K7 ohm resistor	|0805 or 0603 packaging|1/16 W minimum|	R1, R2, R9, R10	4	|Digikey: P4.7KACT-ND|
-|10K ohm resistor	|0805 or 0603 packaging| 1/16 W minimum	|R8, R11, R13|	3	|Digikey: P10KACT-ND|
-|15K ohm resistor	|0805 or 0603 packaging| 1/16 W minimum	|R6	|1	|Digikey: P15KACT-ND|
-|7K5 ohm resistor	|0805 or 0603 packaging| 1/16 W minimum	|R7	|1	|Digikey: P7.5KACT-ND|
-|1K ohm resistor	|0805 or 0603 packaging| 1/16 W minimum	|R3-5, R12|	4	|Digikey: P1.0KACT-ND|
-|1 uF capacitor	ceramic| 0805 or 0603 packaging| 16V rating minimum|	C3, C4|	2|	Digikey: 311-1358-1-ND|
-|0.1 uF capacitor	ceramic| 0805 or 0603 packaging| 16V rating minimum	|C1, C2, C7, C8, C9	5	Digikey: 311-1361-1-ND
-33 uF capacitor	electrolytic, 5.3 mm x 5.3 mm SMD aluminum can, 16V rating minimum	C5, C6	2	Digikey: PCE3886CT-ND
-1N4148 diode	MELF packaging	D1	1	Digikey: LL4148DICT-ND
-Rectifier Diode	SMB packaging, 20V reverse voltage minimum, high forward current rating	D2	1	Digikey: SSB44-E3/52TGICT-ND
-16 MHz resonator		Y1 (16 MHz on PCB)	1	SparkFun: COM-09420
-Male headers	0.1 inch pitch	ESC, I2C, I2C-GROUP, BARO, ACCEL, IMU, GYRO, MAG, BATTERY, BATT-MON, ADC1-7, RC1-6, 5V-TAP, 3V3-TAP, SERIAL, FTDI, maybe BLUETOOTH	Buy long strips and break them off
-2x3 male headers	0.1 inch pitch, no shroud allowed	AVRISP	1	Use the male headers you buy
-TXB0101 bidirectional level shifter	SOT-23-6 package	IC4, IC5	2	Digikey: 296-21664-1-ND
-Tactile momentary push button switch SPST	Right angle, 7.50mm x 7.10mm	RESET, BOOT	2	Digikey: P12232SCT-ND
-5V regulator	SOT223, SOT-223-3 package	5V-REG	1	LM1117MPX-5.0
-3V3 regulator	SOT223 package	3V3-REG	1	LM1117MPX-3.3
-LED	3 mm, any colour	LED1-4	4	SparkFun: COM-00533
-Barrel jack		Battery	1	SparkFun: PRT-00119
-2mm female pin headers		Xbee	2	SparkFun: PRT-08272
+|4K7 ohm resistor	|0805 or 0603 packaging 1/16 W minimum|	R1, R2, R9, R10	|4	|Digikey: P4.7KACT-ND|
+|10K ohm resistor	|0805 or 0603 packaging  1/16 W minimum	|R8, R11, R13|	3	|Digikey: P10KACT-ND|
+|15K ohm resistor	|0805 or 0603 packaging  1/16 W minimum	|R6	|1	|Digikey: P15KACT-ND|
+|7K5 ohm resistor	|0805 or 0603 packaging  1/16 W minimum	|R7	|1	|Digikey: P7.5KACT-ND|
+|1K ohm resistor	|0805 or 0603 packaging  1/16 W minimum	|R3-5, R12|	4	|Digikey: P1.0KACT-ND|
+|1 uF capacitor	ceramic| 0805 or 0603 packaging  16V rating minimum|	C3, C4|	2|	Digikey: 311-1358-1-ND|
+|0.1 uF capacitor	ceramic| 0805 or 0603 packaging  16V rating minimum	|C1, C2, C7, C8, C9	|5	Digikey: 311-1361-1-ND |
+|33 uF capacitor|	electrolytic, 5.3 mm x 5.3 mm SMD aluminum can, 16V rating minimum|	C5, C6|	2|	Digikey: PCE3886CT-ND|
+|1N4148 diode|	MELF packaging|	D1|	1	|Digikey: LL4148DICT-ND|
+|Rectifier Diode	|SMB packaging, 20V reverse voltage minimum, high forward current rating|	D2	|1|	Digikey: SSB44-E3/52TGICT-ND|
+|16 MHz resonator	|	|Y1 (16 MHz on PCB)	|1|	SparkFun: COM-09420|
+|Male headers	|0.1 inch pitch	|ESC, I2C, I2C-GROUP, BARO, ACCEL, IMU, GYRO, MAG, BATTERY, BATT-MON, ADC1-7, RC1-6, 5V-TAP, 3V3-TAP, SERIAL, FTDI, maybe BLUETOOTH|	Buy long strips and break them off| |
+|2x3 male headers|	0.1 inch pitch, no shroud allowed	|AVRISP	1	|Use the male headers you buy|
+|TXB0101 bidirectional level shifter|	SOT-23-6 package|	IC4, IC5	|2|	Digikey: 296-21664-1-ND|
+|Tactile momentary push button switch SPST	|Right angle, 7.50mm x 7.10mm|	RESET, BOOT	|2	|Digikey: P12232SCT-ND|
+|5V regulator	|SOT223, SOT-223-3 package|	5V-REG|	1|	LM1117MPX-5.0|
+|3V3 regulator	|SOT223 package|	3V3-REG	|1|	LM1117MPX-3.3|
+|LED|	3 mm, any colour	|LED1-4	|4	|SparkFun: COM-00533|
+|Barrel jack|		Battery|	1	|SparkFun: PRT-00119|
+|2mm female pin headers	|	Xbee	|2	|SparkFun: PRT-08272|
 
 
 
@@ -479,17 +482,20 @@ Barrel jack		Battery	1	SparkFun: PRT-00119
 
 记住：
 
->?	电源线可能需要在PCB上布得宽些
+```
+电源线可能需要在PCB上布得宽些
 
->?	避免走尖角
+避免走尖角
 
->?	电容尽可能近地放置到器件边上
+电容尽可能近地放置到器件边上
 
->?	尽可能多的做丝印
+尽可能多的做丝印
 
->?	只是因为你的PCB制造商说他们可以做6mil厚度或间隙，并不意味适合你尝试
+只是因为你的PCB制造商说他们可以做6mil厚度或间隙，并不意味适合你尝试
 
->?	0805小型表面贴装元件的焊盘和通孔一样大，为何节省空间和重量，我建议你使用表面贴装元件。对于ATmega644P个头比较大，我用了一个直插封装的版本，因为我想用一个芯片插座方便以后更换芯片。
+```
+
+0805小型表面贴装元件的焊盘和通孔一样大，为何节省空间和重量，我建议你使用表面贴装元件。对于ATmega644P个头比较大，我用了一个直插封装的版本，因为我想用一个芯片插座方便以后更换芯片。
 
 当你设计完成后，打印出一个1:1比例的复印文件，确保所有的文本都是可以识别出来，所有元件的焊点都是正常的。
 
@@ -557,7 +563,7 @@ Ro4Copter.build.core=Ro4Copter_Core
 
 这里的截图显示你所有这些文件夹位置：
 
-![9](http://doask.qiniudn.com/openbook7-helicopter50.png)
+![9](http://doask.qiniudn.com/openbook7-helicopter51.png)
 
 你需要编译的Arduino项目是在步骤26中提供的。编译并用引导程序把它下载到ATmega644P。
 
@@ -581,19 +587,20 @@ Ro4Copter.build.core=Ro4Copter_Core
 
 主环路分为多个任务，分别在不同的频率上执行。这样会给每个任务一个优先级。保持四旋翼稳定的代码具有最高的优先级。与计算机通讯的任务采用低优先级。如果给予GPS较低的优先级，实现导航功能还是有可能的。
 
-![53]()
+![53](http://doask.qiniudn.com/openbook7-helicopter51.png)
 
   之后的步骤将有一些demo，一条一条地讲解相关的技术。
 
 ##步骤12：Arduino Demo：PWM输入
 
-![54]()
+![54](http://doask.qiniudn.com/openbook7-helicopter52.jpg)
 
-![s3](http://www.instructables.com/files/deriv/F7N/VALH/GP6NVNWH/F7NVALHGP6NVNWH.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter53.jpg)
 
-![s4](http://www.instructables.com/files/deriv/F06/VA43/GOW3ZJMO/F06VA43GOW3ZJMO.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter54.jpg)
 
-![s5](http://www.instructables.com/files/deriv/FPK/7ITK/GPA5SHNF/FPK7ITKGPA5SHNF.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter55.jpg)
+
 
 这是一个Arduino的项目，向你展示了如何从几个输入信号里使用PIN变化中断和定时器来读取脉冲宽度。每当检测到引脚的状态变化，中断向量用定时器记录一个时间戳，两个时间戳之间的差异就是是脉冲宽度。
 
@@ -601,15 +608,15 @@ Ro4Copter.build.core=Ro4Copter_Core
 
 更多的信息，研究一下下面几个概念：
 
->?	PWM
+>PWM
 
->?	伺服信号
+>伺服信号
 
->?	AVR的ISR（中断服务程序）
+>AVR的ISR（中断服务程序）
 
->?	PCINT，PIN变化中断
+>PCINT，PIN变化中断
 
->?	AVR 16位定时器
+>AVR 16位定时器
 
 
 下面是相关的代码：
@@ -693,9 +700,10 @@ void loop()
 
 ##步骤13：Arduino Demo：PWM输出
 
-![54]()
+![54](http://doask.qiniudn.com/openbook7-helicopter56.jpg)
 
-![55]()
+![54](http://doask.qiniudn.com/openbook7-helicopter57.jpg)
+
 
 附件是一个Arduino程序，它教你如何通过代码产生电调转速调节的PWM信号，来快速转动电机。
 
@@ -768,13 +776,14 @@ void loop()
 >?	atmega168a–PWM脉冲宽度调制
     (http://www.protostack.com/blog/2011/06/atmega168a-pulse-width-modulation-pwm/)
 
->?	步骤14：Arduino演示：传感器读数
+##步骤14：Arduino演示：传感器读数
 
-![s6](http://www.instructables.com/files/deriv/FHB/RTWX/GP6NYKL0/FHBRTWXGP6NYKL0.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter58.jpg)
 
-![s7](http://www.instructables.com/files/deriv/FM9/E3B3/GP7ISC6W/FM9E3B3GP7ISC6W.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter59.jpg)
 
-![56]()
+
+
 
 这一步包括一个Arduino的程序，从两个传感器读数（BMA180加速度计和ITG-3200陀螺仪）。
 
@@ -788,12 +797,12 @@ http://www.instructables.com/id/music-playing-alarm-clock/step22
 
 我其他关于I2C的教程
 
->?	I2C教程-Embedded Lab（http://embedded-lab.com/blog/?p=2583）
+>	I2C教程-Embedded Lab（http://embedded-lab.com/blog/?p=2583）
 
->?	BMA180 datasheet
+>	BMA180 datasheet
 （http://www.sparkfun.com/datasheets/Sensors/Accelerometer/BST-BMA180-DS000-03.pdf）
 
->?	ITG-3200 datasheet
+>	ITG-3200 datasheet
  http://www.sparkfun.com/datasheets/Sensors/Gyro/PS-ITG-3200-00-01.4.pdf）
 
 飞控软件将初始化该加速度计，先Reset，然后设置10赫兹带宽的低通滤波器并设置加速度读取范围为+/-2G，读一下数据手册，看我的演示代码详情如了解何做这件事。该芯片还有其它特性，比如中断，TAP检测等等，但我们没有使用这些功能。
@@ -936,7 +945,7 @@ void loop()
 
 ##步骤15：控制原理
 
-![s8](http://www.instructables.com/files/deriv/FKE/NFMT/GOW49R6K/FKENFMTGOW49R6K.LARGE.jpg）
+![54](http://doask.qiniudn.com/openbook7-helicopter60.jpg)
 
 该代码允许四轴飞行器有两种模式：
 
@@ -946,21 +955,21 @@ void loop()
 
 为了计算四轴的角，角速度，需要利用陀螺传感器读取的角速度乘以时长等于这段时间的旋转角度。在这个过程中由于漂移和陀螺传感器噪声，陀螺仪数据会有很大的误差。要修正这一误差，使用加速度计来测量重力，来与陀螺仪的数据进行融合。关于这方面的更多细节，请参阅：
 
->?	平衡滤波器（http://web.mit.edu/scolton/www/filter.pdf）
+>	平衡滤波器（http://web.mit.edu/scolton/www/filter.pdf）
 
->?	卡尔曼滤波器（http://en.wikipedia.org/wiki/Kalman_filter）
+>	卡尔曼滤波器（http://en.wikipedia.org/wiki/Kalman_filter）
 
->?	方向余弦矩阵，相关链接
+>	方向余弦矩阵，相关链接
 http://en.wikipedia.org/wiki/Rotation_representation_%28mathematics%29
 
->?	AHRS（航姿系统），姿态航向参考系统
+>	AHRS（航姿系统），姿态航向参考系统
 （http://en.wikipedia.org/wiki/Attitude_and_heading_reference_system）
 
 飞控使用此传感器获取的信息连同PID控制器一起控制电动机。PID的意思是”比例，积分，微分”。看下面这些链接：
 
-PID控制器（http://en.wikipedia.org/wiki/PID_controller）
-?	http://www.engin.umich.edu/group/ctm/pid/pid.html
-?	http://electronicdesign.com/article/analog-and-mixed-signal/what-s-all-this-p-i-d-stuff-anyhow-6131.aspx
+> PID控制器（http://en.wikipedia.org/wiki/PID_controller）
+>	http://www.engin.umich.edu/group/ctm/pid/pid.html
+>	http://electronicdesign.com/article/analog-and-mixed-signal/what-s-all-this-p-i-d-stuff-anyhow-6131.aspx
 
 为了理解“P”的含义，想象一下你正在停车。如果你离停车位非常远，你要朝停车位开快点。当你开近些的时候，你应该慢下来。如果你开过线了，你需要逆向（因此你的速度是负的）。在这种情况下速度=到该点的距离*“P”。
 
@@ -972,9 +981,9 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤16：四轴组装
 
-![s9](http://www.instructables.com/files/deriv/FCM/DZ96/GP5T0RV8/FCMDZ96GP5T0RV8.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter61.jpg)
 
-![s10](http://www.instructables.com/files/deriv/F1J/C099/GP7IENIY/F1JC099GP7IENIY.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter62.jpg)
 
 现在你的电路已经完成，你可以组装整个四旋翼。我不能让你在飞机还不能开始飞之前就开始调它。
 
@@ -986,9 +995,9 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤17：加强机臂
 
-![s11](http://www.instructables.com/files/deriv/FSU/EUOQ/GP5SZLBO/FSUEUOQGP5SZLBO.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter63.jpg)
 
-![s12](http://www.instructables.com/files/deriv/FHO/2SOD/GP5T0RV9/FHO2SODGP5T0RV9.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter64.jpg)
 
 机架套件带有预组装的机臂。虽然关节粘在一起了，但我发现它们不太牢靠，容易开裂。也有一些关节间隙太大。
 
@@ -998,11 +1007,11 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤18：安装电调到机臂上
 
-![s13](http://www.instructables.com/files/deriv/FZP/JJQU/GP5SZLC8/FZPJJQUGP5SZLC8.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter65.jpg)
 
-![s14](http://www.instructables.com/files/deriv/F1B/RKSL/GP5T0RVD/F1BRKSLGP5T0RVD.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter66.jpg)
 
-![57]()
+
 
 将电调塞到机臂里。这一步要先做，因为我发现在安装电调时，有任何的东西挡着都很难将电调装好。
 
@@ -1012,23 +1021,25 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤19：顶板
 
-![s15](http://www.instructables.com/files/deriv/FUZ/3JGG/GOW49R87/FUZ3JGGGOW49R87.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter67.jpg)
 
-![58]()
+![54](http://doask.qiniudn.com/openbook7-helicopter68.jpg)
 
-![s16](http://www.instructables.com/files/deriv/F30/H0BM/GP6NVO6F/F30H0BMGP6NVO6F.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter69.jpg)
 
-![s17](http://www.instructables.com/files/deriv/FOD/M4L1/GOW3ZJTY/FODM4L1GOW3ZJTY.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter70.jpg)
 
-![s18](http://www.instructables.com/files/deriv/FGZ/CG91/GP6NVO6G/FGZCG91GP6NVO6G.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter71.jpg)
 
-![59]()
+![54](http://doask.qiniudn.com/openbook7-helicopter72.jpg)
 
-![60]()
+![54](http://doask.qiniudn.com/openbook7-helicopter73.jpg)
 
-![61]()
+![54](http://doask.qiniudn.com/openbook7-helicopter74.jpg)
 
-![62]()
+![54](http://doask.qiniudn.com/openbook7-helicopter75.jpg)
+
+
 
 确保你有办法安装电路板。你可以在设计电路板时，按照顶板提供的装配孔进行设计，或者在顶板上钻孔。我的电路采用槽来适配任何安装方式。我也有另一个设计，按照我的顶板孔尺寸设计。
 
@@ -1042,25 +1053,27 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤20：起落架
 
-![s19](http://www.instructables.com/files/deriv/FF0/NI54/GP5SZLFB/FF0NI54GP5SZLFB.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter76.jpg)
 
-![s20](http://www.instructables.com/files/deriv/FH4/DL5N/GP5SZLFH/FH4DL5NGP5SZLFH.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter77.jpg)
 
-![s21](http://www.instructables.com/files/deriv/F9H/KCFN/GOW3ZHSJ/F9HKCFNGOW3ZHSJ.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter78.jpg)
 
-![s22](http://www.instructables.com/files/deriv/FO4/SP34/GP5SZLFN/FO4SP34GP5SZLFN.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter79.jpg)
 
-![63]()
+![54](http://doask.qiniudn.com/openbook7-helicopter80.jpg)
 
-![s23](http://www.instructables.com/files/deriv/F4M/TKW6/GOW3ZHSG/F4MTKW6GOW3ZHSG.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter81.jpg)
 
-![64]()
+![54](http://doask.qiniudn.com/openbook7-helicopter82.jpg)
 
-![65]()
+![54](http://doask.qiniudn.com/openbook7-helicopter83.jpg)
 
-![66]()
+![54](http://doask.qiniudn.com/openbook7-helicopter84.jpg)
 
-![67]()
+![54](http://doask.qiniudn.com/openbook7-helicopter85.jpg)
+
+
 
 如果底板已经连接到顶板，那么就无法安装脚架。将黑色脚架放入顶板的细槽。这些插槽要安装到左机臂和右机臂。对齐孔，然后用螺丝和螺母固定。
 
@@ -1070,17 +1083,41 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤21：底板
 
-![s24](http://www.instructables.com/files/deriv/FBA/7C5G/GOW49R9H/FBA7C5GGOW49R9H.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter86.jpg)
 
-![68]()
+![54](http://doask.qiniudn.com/openbook7-helicopter87.jpg)
 
-![s25](http://www.instructables.com/files/deriv/FDT/NAT0/GP5SZLPY/FDTNAT0GP5SZLPY.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter88.jpg)
 
-![s26](http://www.instructables.com/files/deriv/F85/XQ18/GP5T0RYF/F85XQ18GP5T0RYF.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter89.jpg)
 
-![69]()
+![54](http://doask.qiniudn.com/openbook7-helicopter90.jpg)
 
-![s27](http://www.instructables.com/files/deriv/FTU/FXY2/GP7IMU8J/FTUFXY2GP7IMU8J.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter91.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter92.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter93.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter94.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter95.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter96.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter97.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter98.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter99.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter100.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter101.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter102.jpg)
+
+
 
 我制作了两个铝条，安装在底板上。所附的照片里有这些铝条的尺寸。
 
@@ -1094,7 +1131,7 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤22：安装电路板
 
-![70]()
+![54](http://doask.qiniudn.com/openbook7-helicopter103.jpg)
 
 在放置顶部之前，应该先安装电路板。使用短的支撑柱和螺丝来固定。你可能需要螺丝垫圈。螺钉可能也需要裁剪到合适的尺寸以便适配支撑柱。
 
@@ -1102,17 +1139,26 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤23：顶部
 
-![s28](http://www.instructables.com/files/deriv/F63/S6GO/GP5T0S52/F63S6GOGP5T0S52.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter104.jpg)
 
-![s29](http://www.instructables.com/files/deriv/FVP/5M3M/GOW3ZI2L/FVP5M3MGOW3ZI2L.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter105.jpg)
 
-![s30](http://www.instructables.com/files/deriv/FVP/5M3M/GOW3ZI2L/FVP5M3MGOW3ZI2L.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter106.jpg)
 
-![71]()
+![54](http://doask.qiniudn.com/openbook7-helicopter107.jpg)
 
-![s31](http://www.instructables.com/files/deriv/F3E/1BCX/GOW3ZI2M/F3E1BCXGOW3ZI2M.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter108.jpg)
 
-![z32](http://www.instructables.com/files/deriv/FQS/0ISW/GP5SZM6J/FQS0ISWGP5SZM6J.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter109.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter110.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter111.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter112.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter113.jpg)
+
 
 在机架套件有8个圆顶支撑件，4个跨接件，和两个小顶板。
 
@@ -1126,13 +1172,15 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤24：安装电机
 
-![72]()
+![54](http://doask.qiniudn.com/openbook7-helicopter114.jpg)
 
-![s33](http://www.instructables.com/files/deriv/F5P/AX1T/GP5SZM83/F5PAX1TGP5SZM83.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter115.jpg)
 
-![s34](http://www.instructables.com/files/deriv/FGZ/HEUY/GP5T0S5N/FGZHEUYGP5T0S5N.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter116.jpg)
 
-![s35](http://www.instructables.com/files/deriv/FDO/FLL6/GP7IRXCM/FDOFLL6GP7IRXCM.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter117.jpg)
+
+![54](http://doask.qiniudn.com/openbook7-helicopter118.jpg)
 
 每个无刷电机都可以挂在一条支臂上。使用1 / 2“长，# 4-40螺丝（钢质螺丝）和螺母，平垫圈，用弹簧锁紧垫圈来确保这些螺钉是很紧。
 
@@ -1142,10 +1190,9 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤25：最后布线
 
-![s37](http://www.instructables.com/files/deriv/F2X/1MP0/GP5SZM97/F2X1MP0GP5SZM97.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter119.jpg)
 
-![s38](http://www.instructables.com/files/deriv/FG6/P573/GP7IEY4S/FG6P573GP7IEY4S.LARGE.jpg)
-
+![54](http://doask.qiniudn.com/openbook7-helicopter120.jpg)
 
 将电机线和电调相连。不需要关心的三根线的顺序。我们将在后面测试后再根据自旋方向来调整连线顺序。
 
@@ -1161,11 +1208,12 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤26：软件安装
 
-![s39](http://www.instructables.com/files/deriv/F8M/V5ZH/GP6NVNY3/F8MV5ZHGP6NVNY3.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter121.jpg)
 
-![s40](http://www.instructables.com/files/deriv/F2J/14B8/GPA5SJIO/F2J14B8GPA5SJIO.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter122.jpg)
 
-![s41](http://www.instructables.com/files/deriv/FCO/VV9N/GPA5SJIN/FCOVV9NGPA5SJIN.LARGE.jpg)
+
+
 
 在“准备微控制器”的步骤中，你应该已经将引导程序安装到微控制器中，并准备好Arduino IDE来为ATmega644P编译程序。
 
@@ -1187,15 +1235,15 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤27：远程控制
 
-![s42](http://www.instructables.com/files/deriv/FTX/ONVP/GPBD3LVQ/FTXONVPGPBD3LVQ.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter123.jpg)
 
-![73]()
+![54](http://doask.qiniudn.com/openbook7-helicopter124.jpg)
 
-![s43](http://www.instructables.com/files/deriv/F06/VA43/GOW3ZJMO/F06VA43GOW3ZJMO.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter125.jpg)
 
-![s44](http://www.instructables.com/files/deriv/FIK/BPTO/GP7IMU8O/FIKBPTOGP7IMU8O.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter126.jpg)
 
-![s45](http://www.instructables.com/files/deriv/FAW/CHLU/GP7IRXCS/FAWCHLUGP7IRXCS.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter127.jpg)
 
  遥控无线发射机的前4个通道使用两个操纵杆控制。我附上图片向你展示我的发射机的操纵杆各个方向所对应的通道（箭头指示脉冲宽度增加方向）。你的遥控可能不同，但是它们应该有标记。
 
@@ -1213,15 +1261,15 @@ PID控制器（http://en.wikipedia.org/wiki/PID_controller）
 
 ##步骤28：调整和校准
 
-![s46](http://www.instructables.com/files/deriv/F4W/UOWI/GOW49RJW/F4WUOWIGOW49RJW.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter128.jpg)
 
-![s47](http://www.instructables.com/files/deriv/FLV/LECX/GP7IFC7R/FLVLECXGP7IFC7R.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter129.jpg)
 
-![s48](http://www.instructables.com/files/deriv/FJF/5G71/GP58HUAR/FJF5G71GP58HUAR.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter130.jpg)
 
-![s49](http://www.instructables.com/files/deriv/F2J/14B8/GPA5SJIO/F2J14B8GPA5SJIO.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter131.jpg)
 
-![s50](http://www.instructables.com/files/deriv/FG4/1YUI/GPBD2TE2/FG41YUIGPBD2TE2.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter132.jpg)
 
  给电池充电然后绑到四旋翼上。你必须先学会锁定和解锁飞控，先熟练操作这个，因为你必须在四旋翼出状况时锁定飞控。针对aeroquad软件，油门向下然后向左为锁定，油门向下再向右解锁，对于我的电路和修改软件，LED3亮指示着四旋翼解锁。
 
@@ -1248,7 +1296,7 @@ http://aeroquad.com/showwiki.php?title=PID+Tuning
 
 ##步骤29：飞行
 
-![s51](http://www.instructables.com/files/deriv/F68/71BS/GP5T0S8F/F6871BSGP5T0S8F.LARGE.jpg)
+
 
 现在，所有都调好了，你应该准备好爽飞了！既然你已经调好了机，你应该已经熟悉如何控制飞机。给电池充好电，绑上电池，开赴飞场。
 
@@ -1262,26 +1310,26 @@ http://aeroquad.com/showwiki.php?title=PID+Tuning
 
 相关阅读：
 
->?	开始飞行技巧
+> 开始飞行技巧
 （http://aeroquad.com/showwiki.php?title=Beginning+Flight+Tips—）- AeroQuad Wiki
 
 ##步骤30：修复，重调，充电
 
-![s52](http://www.instructables.com/files/deriv/FI1/HKY8/GP7IFKOM/FI1HKY8GP7IFKOM.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter133.jpg)
 
-![74]()
+![54](http://doask.qiniudn.com/openbook7-helicopter134.jpg)
 
-![s53](http://www.instructables.com/files/deriv/F0B/STKM/GPAS1TIO/F0BSTKMGPAS1TIO.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter135.jpg)
 
-![s54](http://www.instructables.com/files/deriv/FD8/03G7/GP7IF17X/FD803G7GP7IF17X.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter136.jpg)
 
-![s55](http://www.instructables.com/files/deriv/FH3/JN22/GOW3ZDFP/FH3JN22GOW3ZDFP.LARGE.jpg)
+![54](http://doask.qiniudn.com/openbook7-helicopter137.jpg)
 
-![75]()
+![54](http://doask.qiniudn.com/openbook7-helicopter138.jpg)
 
-![76]()
+![54](http://doask.qiniudn.com/openbook7-helicopter139.jpg)
 
-![77]()
+![54](http://doask.qiniudn.com/openbook7-helicopter140.jpg)
 
 如果飞行时候坠落，你可能会摔坏四轴的机臂。没什么好办法修复，所以只需拆掉并更换机臂。
 
@@ -1310,24 +1358,24 @@ http://aeroquad.com/showwiki.php?title=PID+Tuning
 你可能已经看完了我的两个飞行控制器的电路设计。我的设计允许你添加磁罗盘传感器和气压压力传感器。这些传感器可以用来让你的软件获得航向和高度的数据，它可以帮助保持直升机朝向一个方向，待在一个高度。GPS也可以加进来。这些额外的传感器的组合可以帮助提高自主飞行能力。AeroQuad代码和MultiWiiCopter代码都可以支持这些传感器。
 
 **致谢：**
->?	aeroquad（http://aeroquad.com/）
+>	aeroquad（http://aeroquad.com/）
 
->?	multiwiicopter（http://www.multiwii.com/）
+>	multiwiicopter（http://www.multiwii.com/）
 
->?	Arduino（http://arduino.cc/）
+>	Arduino（http://arduino.cc/）
 
->?	维基百科（http://www.wikipedia.org/）
+>	维基百科（http://www.wikipedia.org/）
 
->?	wpclipart（http://www.wpclipart.com/working/work_supplies/shopping_cart_racing.png.html）
+>	wpclipart（http://www.wpclipart.com/working/work_supplies/shopping_cart_racing.png.html）
 
->?	Bird Clipart
+>	Bird Clipart
 （http://www.birdclipart.com/bird_clipart_images/bird_in_flight_outline_drawing_coloring_page_0071-0903-1511-2308.html）
 
->?	更多信息
+>	更多信息
 
->?	四轴飞行器和tricopter信息超级链接索引
+>	四轴飞行器和tricopter信息超级链接索引
 （http://www.rcgroups.com/forums/showthread.php?t=1097355）
 
->?	rcgroups -多旋翼直升机
+>	rcgroups -多旋翼直升机
 （ http://www.rcgroups.com/multi-rotor-helis-659/）
 
